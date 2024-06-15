@@ -1,0 +1,42 @@
+:root{
+--main-color:#755076;
+--light-color:#f0f3f2;
+--main-family: "Encode Sans Expanded", sans-serif;
+}
+body{
+    font-family: var(--main-family);
+}
+.text-main{
+    color: var(--main-color);
+}
+.bg-main-light{
+    background-color: var(--light-color);
+}
+.font-sm{
+    font-size: 11px;
+}
+.bg-main{
+    background-color: var(--main-color) !important;
+}
+.main-btn{
+    background-color: var(--main-color) !important;
+    color: #fff;
+    border-radius: 5px;
+    border: unset;
+    cursor: pointer;
+    padding: 4px 8px;
+    &:disabled{
+        background-color: #472f48;
+        color: #ffffff87;
+        cursor: not-allowed;
+
+    }
+
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+   
+}
